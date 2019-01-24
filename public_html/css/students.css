@@ -1,0 +1,27 @@
+/*page students*/
+
+table.students, tr, td,th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table.students {
+    width: 500px;
+}
+
+table.students th {
+    background-color: #ccc;
+}
+
+table.students tbody tr td {
+    border-bottom: 2px solid yellow;
+}
+
+
+table.students tbody tr:last-child {
+    color: red;
+} 
+
+table.students tbody tr:nth-of-type(odd) {
+    background-color: #ccc;
+}

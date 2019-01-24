@@ -1,0 +1,116 @@
+/*general*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif, serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+}     
+
+h2 {
+    color: yellow;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+
+header {
+    background-color:  #80fef8;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    
+}
+
+nav {
+    background-color:  #a2b7d8;
+    text-align: center;
+}
+
+nav ul {
+    padding-left: 0;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    text-align: center;     
+        
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav ul li a:hover {
+    background-color: #ccc;
+}
+
+.important {
+    margin: 25px;
+    padding: 15px;
+    border: 4px solid yellow;
+    background-color: #590202;
+    width: 400px;
+}
+
+.naslov {
+    font-family: Times New Roman, sans-serif, serif;
+    font-size: 18px;
+    color: blue;
+}
+
+#define-html {
+    background-color: #c3aeae;
+    font-size: 17px;
+}
+
+.title {
+    color: green;
+}
+
+article {
+    /*background-color:  #fcfe80;*/
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+   
+}
+
+aside {
+    /*background-color:  #ccc;*/
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    background-color: #f1d2d2;
+    padding: 20px;
+}
+
+
+footer {
+    background-color:  #80fef8;    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
